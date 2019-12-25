@@ -12,7 +12,6 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color:  green;
 	position: sticky;
 }
 
@@ -26,4 +25,10 @@ body{
 .spanOnClick{
 	border-radius: 2.5%;
 	background-color: rgba(1, 1, 1, 0.3);
+}
+
+#introduction{
+	height: 65vh;
+	width: 100vw;
+	background-color: rgb(255, 137, 0);
 }
