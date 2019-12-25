@@ -17,15 +17,13 @@ body{
 }
 
 #navbar > span{
-	margin: 10px;
+	padding:  15px;
+	margin: 15px;
+	color: white;
+	font-size: 20px;
 }
 
 .spanOnClick{
-	border:  1px solid black;
 	border-radius: 2.5%;
-	background-color: white;
-}
-
-#navbar > span:hover{
-	font-size: 20px;
+	background-color: rgba(1, 1, 1, 0.3);
 }
