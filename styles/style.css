@@ -8,6 +8,12 @@ body{
 	flex-direction: column;
 }
 
+#introduction{
+	display: flex;
+	flex-direction: column;
+}
+
+
 #navbar{
 	display: flex;
 	justify-content: center;
