@@ -49,6 +49,7 @@ body{
 
 #buttonContainer{
 	align-self: center;
+	margin-top: 10px;
 }
 
 #buttonContainer > span{
