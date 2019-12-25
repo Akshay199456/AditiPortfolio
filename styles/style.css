@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	display: flex;
+	flex-direction: column;
+}
+
+#navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:  green;
+	position: sticky;
+}
+
+#navbar > span{
+	margin: 10px;
+}
+
+.spanOnClick{
+	border:  1px solid black;
+	border-radius: 2.5%;
+	background-color: white;
+}
+
+#navbar > span:hover{
+	font-size: 20px;
+}
