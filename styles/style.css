@@ -20,6 +20,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	position: sticky;
+	height: 20%;
 }
 
 #navbar > span{
@@ -31,7 +32,16 @@ body{
 #introduction{
 	height: 65vh;
 	width: 100vw;
-	background-color: rgb(255, 137, 0);
+	border:  2px solid black;
+	background: url('../images/backgroundPic.jpeg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#profilePicContainer{
+	height: 40%;
+	display: flex;
+	justify-content: center;
 }
 
 #profilePic{
@@ -45,11 +55,13 @@ body{
 
 #introduction > h1, #introduction > h3{
 	text-align: center;
+	height: 10%;
 }
 
 #buttonContainer{
 	align-self: center;
 	margin-top: 10px;
+	height: 20%;
 }
 
 #buttonContainer > span{
