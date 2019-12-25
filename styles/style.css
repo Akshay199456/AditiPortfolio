@@ -11,6 +11,7 @@ body{
 #introduction{
 	display: flex;
 	flex-direction: column;
+	color: white;
 }
 
 
@@ -24,17 +25,44 @@ body{
 #navbar > span{
 	padding:  15px;
 	margin: 15px;
-	color: white;
 	font-size: 20px;
-}
-
-.spanOnClick{
-	border-radius: 2.5%;
-	background-color: rgba(1, 1, 1, 0.3);
 }
 
 #introduction{
 	height: 65vh;
 	width: 100vw;
 	background-color: rgb(255, 137, 0);
+}
+
+#profilePic{
+	align-self: center;
+	margin-top: 30px;
+	display: inline-block;
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+}
+
+#introduction > h1, #introduction > h3{
+	text-align: center;
+}
+
+#buttonContainer{
+	align-self: center;
+}
+
+#buttonContainer > span{
+	height: 10vh;
+	margin: 10px;
+	background-color: green;
+	padding: 10px;
+	border-radius: 2.5%;
+}
+
+
+/* Helper Classes */
+
+.spanOnClick{
+	border-radius: 2.5%;
+	background-color: rgba(1, 1, 1, 0.3);
 }
