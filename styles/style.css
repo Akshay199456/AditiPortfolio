@@ -8,6 +8,29 @@ body{
 	flex-direction: column;
 }
 
+section{
+	width: 80%;
+	height: 300px;
+	margin:  0 auto;
+	margin-top: 50px;
+	z-index: 1;
+	box-shadow: 20px 20px 50px 15px grey;
+	border-radius: 1%;
+	overflow: scroll;
+}
+
+.description{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.headers{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* CSS for Introduction Section */
+
 #introduction{
 	display: flex;
 	flex-direction: column;
@@ -20,7 +43,12 @@ body{
 	justify-content: center;
 	align-items: center;
 	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
 	height: 20%;
+	background-color: green;
+	opacity: 1.0;
+	z-index: 2;
 }
 
 #navbar > span{
@@ -32,7 +60,6 @@ body{
 #introduction{
 	height: 65vh;
 	width: 100vw;
-	border:  2px solid black;
 	background: url('../images/backgroundPic.jpeg') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -70,6 +97,26 @@ body{
 	background-color: green;
 	padding: 10px;
 	border-radius: 2.5%;
+}
+
+
+/* CSS for About Section */
+
+#aboutSection{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#aboutSection > div{
+	width: 45%;
+}
+
+
+/* CSS for Skills Section */
+#skillsSection{
+	height: 150px;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 
