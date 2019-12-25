@@ -12,7 +12,7 @@ section{
 	width: 80%;
 	height: 300px;
 	margin:  0 auto;
-	margin-top: 50px;
+	margin-top: 30px;
 	z-index: 1;
 	box-shadow: 20px 20px 50px 15px grey;
 	border-radius: 1%;
@@ -55,6 +55,11 @@ section{
 	padding:  15px;
 	margin: 15px;
 	font-size: 20px;
+}
+
+#navbar > span:hover{
+	border-radius: 2.5%;
+	background-color: rgba(1, 1, 1, 0.3);
 }
 
 #introduction{
