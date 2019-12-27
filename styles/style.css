@@ -154,6 +154,9 @@ section{
 	margin-top: 20px;
 	border:  1px solid grey;
 	border-radius: 1%;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 5px grey;
+	z-index: 2;
 }
 
 .companyInfo{
