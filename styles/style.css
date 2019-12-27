@@ -35,6 +35,19 @@ section{
 	font-weight: bold;
 }
 
+article{
+	display: flex;
+	height: 400px;
+	width: 90%;
+	margin:  0 auto;
+	margin-top: 20px;
+	border:  1px solid grey;
+	border-radius: 1%;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 5px grey;
+	z-index: 2;
+}
+
 
 
 /* CSS For Navbar */
@@ -146,31 +159,18 @@ section{
 
 /* CSS for Experience Section */
 
-#experienceSection > article{
-	display: flex;
-	height: 400px;
-	width: 90%;
-	margin:  0 auto;
-	margin-top: 20px;
-	border:  1px solid grey;
-	border-radius: 1%;
-	margin-bottom: 20px;
-	box-shadow: 5px 5px 5px grey;
-	z-index: 2;
-}
-
 .companyInfo{
 	width: 40%;
 	height: 100%;
 }
 
-.companyExperience{
+.companyExperience, .degreeExpansion{
 	width: 60%;
 	display: flex;
 	align-items: center;
 }
 
-.companyInfo{
+.companyInfo, .degreeInfo{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -179,9 +179,38 @@ section{
 	color: white;
 }
 
-.companyName{
-	font-size: 32px;
+.companyName, .degreeType{
+	font-size: 2em;
 	text-align: center;
+}
+
+
+/* CSS for Education Section*/
+#educationSection > article{
+	height: 200px;
+}
+
+.degreeExpansion{
+	flex-direction: column;
+	justify-content: center;
+}
+
+.degreeInfo{
+	width: 40%;
+}
+
+.universityName{
+	color: #9A9A9A;
+	font-size: 1.2em;
+}
+
+.universityDegree{
+	font-size: 1.4em;
+	text-align: center;
+}
+
+.degreeYear{
+	font-size: 1.1em;
 }
 
 
