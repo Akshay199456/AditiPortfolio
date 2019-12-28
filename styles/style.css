@@ -167,13 +167,13 @@ article{
 	height: 100%;
 }
 
-.companyExperience, .degreeExpansion{
+.companyExperience, .degreeExpansion, .projectDescription{
 	width: 60%;
 	display: flex;
 	align-items: center;
 }
 
-.companyInfo, .degreeInfo{
+.companyInfo, .degreeInfo, .projectBasics{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -182,7 +182,7 @@ article{
 	color: white;
 }
 
-.companyName, .degreeType{
+.companyName, .degreeType, .projectName{
 	font-size: 2em;
 	text-align: center;
 }
@@ -198,7 +198,7 @@ article{
 	justify-content: center;
 }
 
-.degreeInfo{
+.degreeInfo, .projectBasics{
 	width: 40%;
 }
 
@@ -212,9 +212,13 @@ article{
 	text-align: center;
 }
 
-.degreeYear{
+.degreeYear, .projectDuration{
 	font-size: 1.1em;
 }
+
+
+/* CSS for Project Section */
+
 
 
 /* Helper Classes */
