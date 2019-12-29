@@ -49,6 +49,36 @@ article{
 }
 
 
+/* Generic CSS classes applicable to several id's and classes */
+
+.companyExperience, .degreeExpansion, .projectDescription, .degreeCourses{
+	width: 60%;
+	display: flex;
+	align-items: center;
+}
+
+.companyInfo, .degreeInfo, .projectBasics, .degreeLevel{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #378C3F;
+	color: white;
+}
+
+.companyName, .degreeType, .projectName, .degreeLevel{
+	font-size: 2em;
+	text-align: center;
+}
+
+.degreeInfo, .projectBasics, .degreeLevel{
+	width: 40%;
+}
+
+.degreeYear, .projectDuration{
+	font-size: 1.1em;
+}
+
 
 /* CSS For Navbar */
 
@@ -167,26 +197,6 @@ article{
 	height: 100%;
 }
 
-.companyExperience, .degreeExpansion, .projectDescription{
-	width: 60%;
-	display: flex;
-	align-items: center;
-}
-
-.companyInfo, .degreeInfo, .projectBasics{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: #378C3F;
-	color: white;
-}
-
-.companyName, .degreeType, .projectName{
-	font-size: 2em;
-	text-align: center;
-}
-
 
 /* CSS for Education Section*/
 #educationSection > article{
@@ -196,10 +206,6 @@ article{
 .degreeExpansion{
 	flex-direction: column;
 	justify-content: center;
-}
-
-.degreeInfo, .projectBasics{
-	width: 40%;
 }
 
 .universityName{
@@ -212,13 +218,13 @@ article{
 	text-align: center;
 }
 
-.degreeYear, .projectDuration{
-	font-size: 1.1em;
+
+/* CSS for Coursework Section */
+#courseworkSection > article{
+	height: 200px;
 }
 
-
 /* CSS for Project Section */
-
 
 
 /* Helper Classes */
