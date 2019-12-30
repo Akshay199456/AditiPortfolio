@@ -2,7 +2,25 @@
 
 
 /* Need to add animations for different browsers so it can be viewed irrespective of the browser */
+@keyframes opacityChange{
+	from {
+		opacity: 0;
+	}
 
+	to{
+		opacity: 1.0;
+	}
+}
+
+@keyframes comeFromDown{
+	from {
+		transform: translateY(100%);
+	}
+
+	to{
+		transform: translateY(0%);
+	}
+}
 
 /* CSS For Elements */
 
@@ -129,6 +147,7 @@ article{
 	display: flex;
 	flex-direction: column;
 	color: white;
+	animation: opacityChange 5s;
 }
 
 #introduction{
@@ -181,6 +200,7 @@ article{
 #aboutSection{
 	display: flex;
 	justify-content: space-evenly;
+	animation: comeFromDown 2s, opacityChange 3s;
 }
 
 #aboutSection > div{
