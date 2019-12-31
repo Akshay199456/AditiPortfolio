@@ -1,3 +1,11 @@
+/* Helper Classes */
+
+.spanOnClick{
+	border-radius: 2.5%;
+	background-color: rgba(1, 1, 1, 0.3);
+}
+
+
 /* Animations */
 
 
@@ -19,6 +27,36 @@
 
 	to{
 		transform: translateY(0%);
+	}
+}
+
+@keyframes widthComplete{
+	from {
+		width: 0%;
+	}
+
+	to{
+		width: 40%;
+	}
+}
+
+@keyframes moveFromLeft{
+	from {
+		transform: translateX(-100%);
+	}
+
+	to {
+		transform: translateX(0%);
+	}
+}
+
+@keyframes moveFromRight{
+	from{
+		transform: translateX(100%);
+	}
+
+	to {
+		transform: translateX(0%);
 	}
 }
 
@@ -79,6 +117,7 @@ article{
 	width: 60%;
 	display: flex;
 	align-items: center;
+	/* animation: moveFromRight 2s, opacityChange 3s; */
 }
 
 .companyInfo, .degreeInfo, .projectBasics, .degreeLevel{
@@ -88,6 +127,7 @@ article{
 	align-items: center;
 	background-color: #378C3F;
 	color: white;
+	/* animation: widthComplete 2s, opacityChange 3s; */
 }
 
 .companyName, .degreeType, .projectName, .degreeLevel{
@@ -200,7 +240,7 @@ article{
 #aboutSection{
 	display: flex;
 	justify-content: space-evenly;
-	animation: comeFromDown 2s, opacityChange 3s;
+	/* animation: comeFromDown 2s, opacityChange 3s; */
 }
 
 #aboutSection > div{
@@ -258,13 +298,4 @@ article{
 /* CSS for Coursework Section */
 #courseworkSection > article{
 	height: 200px;
-}
-
-
-
-/* Helper Classes */
-
-.spanOnClick{
-	border-radius: 2.5%;
-	background-color: rgba(1, 1, 1, 0.3);
 }
