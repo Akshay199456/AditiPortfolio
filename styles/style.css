@@ -187,7 +187,7 @@ article{
 	display: flex;
 	flex-direction: column;
 	color: white;
-	animation: opacityChange 5s;
+	animation: opacityChange 3s;
 }
 
 #introduction{
