@@ -43,8 +43,21 @@ let previousSpan = null;
 // Event Listeners
 //====================================
 
-// Setting up event listener on the navbar
 
+// Event listener on the navbar to see if it has scrolled a certain amount ; if so change
+// the background color
+
+/*
+window.onscroll = () =>{
+	const nav = document.getElementById("navbar");
+	if(this.scrollY <=400)
+		nav.classList.remove('scroll');
+	else
+		nav.classList.add('scroll');
+};
+*/
+
+// Setting up event listener on the navbar
 const navbarListener = document.getElementById("navbar");
 // console.log(navbarListener);
 navbarListener.addEventListener("click",function(e){
