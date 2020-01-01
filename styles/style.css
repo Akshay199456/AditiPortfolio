@@ -171,14 +171,10 @@ article{
 	position: -webkit-sticky;
 	top: 0;
 	height: 20%;
-	/* background-color: #378C3F; */
+	background-color: #378C3F;
 	opacity: 1.0;
 	z-index: 2;
 	color: white;
-	background: url('../images/backgroundPic.jpeg') no-repeat center;
-	background-size: cover;
-	background-attachment: fixed;
-	animation: opacityChange 3s;
 }
 
 #navbar > span{
