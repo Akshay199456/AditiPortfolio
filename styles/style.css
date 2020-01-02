@@ -130,6 +130,7 @@ article{
 
 .companyExperience, .degreeExpansion, .projectDescription, .degreeCourses{
 	width: 60%;
+	height: 100%;
 	display: flex;
 	align-items: center;
 	/* animation: moveFromRight 2s, opacityChange 3s; */
@@ -137,6 +138,7 @@ article{
 
 .companyInfo, .degreeInfo, .projectBasics, .degreeLevel{
 	display: flex;
+	height: 100%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -317,6 +319,7 @@ h1, h2{
 .universityName{
 	color: #9A9A9A;
 	font-size: 1.2em;
+	text-align: center;
 }
 
 .universityDegree{
