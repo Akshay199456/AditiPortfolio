@@ -82,6 +82,10 @@ body, html{
 	line-height: 1.8em;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 #container{
 	display: flex;
 	flex-direction: column;
