@@ -207,7 +207,7 @@ h1, h2{
 	display: flex;
 	flex-direction: column;
 	color: white;
-	height: 60vh;
+	height: 65vh;
 	width: 100vw;
 	background: url('../images/backgroundPic.jpeg') no-repeat center;
 	background-size: cover;
