@@ -1,9 +1,9 @@
 /* Helper Classes */
 
-.spanOnClick{
+/* .spanOnClick{
 	border-radius: 2.5%;
 	background-color: rgba(1, 1, 1, 0.3);
-}
+} */
 
 
 
@@ -19,7 +19,7 @@
 
 
 /* Need to add animations for different browsers so it can be viewed irrespective of the browser */
-@keyframes opacityChange{
+/* @keyframes opacityChange{
 	from {
 		opacity: 0;
 	}
@@ -67,11 +67,11 @@
 	to {
 		transform: translateX(0%);
 	}
-}
+} */
 
 /* CSS For Elements */
 
-body, html{
+/* body, html{
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -123,17 +123,16 @@ article{
 	margin-bottom: 20px;
 	box-shadow: 5px 5px 5px grey;
 	z-index: 2;
-}
+} */
 
 
 /* Generic CSS classes applicable to several id's and classes */
 
-.companyExperience, .degreeExpansion, .projectDescription, .degreeCourses{
+/* .companyExperience, .degreeExpansion, .projectDescription, .degreeCourses{
 	width: 60%;
 	height: 100%;
 	display: flex;
 	align-items: center;
-	/* animation: moveFromRight 2s, opacityChange 3s; */
 }
 
 .companyInfo, .degreeInfo, .projectBasics, .degreeLevel{
@@ -144,7 +143,6 @@ article{
 	align-items: center;
 	background-color: #378C3F;
 	color: white;
-	/* animation: widthComplete 2s, opacityChange 3s; */
 }
 
 .companyName, .degreeType, .projectName, .degreeLevel{
@@ -159,23 +157,16 @@ article{
 .degreeYear, .projectDuration{
 	font-size: 1.1em;
 	text-align: center;
-}
+} */
 
 
 /* CSS For Navbar */
-
+/* 
 #navbar{
 	font-family: 'Roboto Slab', serif;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* 
-
-	might have to change position:  fixed and adjust positioning
-	and display since position sticky doesn't work on older versions
-	of IE 
-
-	*/
 	position: sticky;
 	position: -webkit-sticky;
 	top: 0;
@@ -200,12 +191,12 @@ article{
 
 h1, h2{
 	font-family: 'Roboto Slab', serif;
-}
+} */
 
 
 /* CSS for Introduction Section */
 
-#introduction{
+/* #introduction{
 	display: flex;
 	flex-direction: column;
 	color: white;
@@ -240,7 +231,6 @@ h1, h2{
 }
 
 #introduction h1{
-	/* margin-top: 4%; */
 	margin-bottom: -1.0%;
 	font-family: 'Roboto Slab', serif;
 }
@@ -260,15 +250,14 @@ h1, h2{
 	padding: 10px;
 	border-radius: 2.5%;
 	text-decoration: none;
-}
+} */
 
 
 /* CSS for About Section */
 
-#aboutSection{
+/* #aboutSection{
 	display: flex;
 	justify-content: space-evenly;
-	/* animation: comeFromDown 2s, opacityChange 3s; */
 }
 
 #aboutSection > div{
@@ -279,9 +268,11 @@ h1, h2{
 	font-size: 20px;
 	font-weight: bold;
 }
+ */
+
 
 /* CSS for Skills Section */
-#skillsSection{
+/* #skillsSection{
 	min-height: 150px;
 	display: flex;
 	justify-content: space-evenly;
@@ -296,18 +287,18 @@ h1, h2{
 #skillsSection > div:nth-of-type(2){
 	width: 45%;
 }
-
+ */
 
 /* CSS for Experience Section */
 
-.companyInfo{
+/* .companyInfo{
 	width: 40%;
 	height: 100%;
-}
+} */
 
 
 /* CSS for Education Section*/
-#educationSection > article{
+/* #educationSection > article{
 	height: 200px;
 }
 
@@ -325,10 +316,10 @@ h1, h2{
 .universityDegree{
 	font-size: 1.4em;
 	text-align: center;
-}
+} */
 
 
 /* CSS for Coursework Section */
-#courseworkSection > article{
+/* #courseworkSection > article{
 	height: 200px;
-}
+} */
